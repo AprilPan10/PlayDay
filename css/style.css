@@ -1,0 +1,40 @@
+body, html{
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    grid-template-columns: auto;
+    
+}
+svg{
+    width: 300px;
+    align-self: center;
+    justify-self: center;
+    
+}
+svg #leg_1_{
+   animation: legmove 3s infinite linear;
+}
+@keyframes legmove {
+  0%, 50% {
+    transform:rotate(0deg);
+      transform-origin: top left;
+  }
+  25% {
+    transform:rotate(1deg);
+      transform-origin: top left;
+  }
+  75% {
+    transform:rotate(-1deg);  
+      transform-origin: top left;
+  }  
+
+}
+
+	.st0{fill:#E2E2E2;}
+	.st1{fill:#EDEEEF;}
+	.st2{fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
+	.st3{fill:#FFDE91;}
+	.st4{fill:none;stroke:#FF6498;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}

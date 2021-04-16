@@ -1,0 +1,42 @@
+body, html{
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    grid-template-columns: auto;
+    
+}
+svg{
+    width: 600px;
+    align-self: center;
+    justify-self: center;
+    
+}
+svg #toplayer{
+    animation: toplayer 5s infinite;
+}
+@keyframes toplayer {
+  50% {
+    transform:translateY(-2em);
+     transform-origin: bottom right;
+  }
+  
+}
+svg #bottomlayer{
+    animation: bottomlayer 5s infinite;
+}
+@keyframes bottomlayer {
+  50% {
+    transform:translateY(2em);
+     transform-origin: bottom right;
+  }
+  
+}
+.st0{fill:none;stroke:#000000;stroke-width:1.5;stroke-miterlimit:10;}
+	.st1{fill:#EDEEEF;}
+	.st2{fill:#FFDE91;}
+	.st3{fill:#F4F4F4;}
+	.st4{fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
+	.st5{fill:none;stroke:#FF6498;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
