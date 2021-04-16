@@ -2,7 +2,7 @@
 ## Name:Shimeng Pan
 ## Student id: N01038365
 ## Tasks
-- [X]  Animate SVG elements using CSS and HTML element on SVG paths.
+- [X]  Animate SVG elements using CSS and HTML elements on SVG paths.
 ## Resources
 online research
 
